@@ -5,16 +5,16 @@ const Navbar = () => {
   const menu = (
     <>
       <li>
-        <a href="#">Home</a>
+        <a href="#home">Home</a>
       </li>
       <li>
-        <a href="#">Services</a>
+        <a href="#services">Services</a>
       </li>
       <li>
-        <a href="#">Skill</a>
+        <a href="#skill">Skill</a>
       </li>
       <li>
-        <a href="#">Portfolio</a>
+        <a href="#portfolio">Portfolio</a>
       </li>
     </>
   );
@@ -45,7 +45,7 @@ const Navbar = () => {
             {menu}
           </ul>
         </div>
-        <a href="#">
+        <a href="#home">
           <img src={logo} alt="" className="w-[200px]" />
         </a>
       </div>
@@ -53,7 +53,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{menu}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-primary normal-case text-white" href="#">
+        <a className="btn btn-primary normal-case text-white" href="#contact">
           Contact
         </a>
       </div>

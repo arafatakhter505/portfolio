@@ -3,5 +3,19 @@ import heroImg from "./my-bg1.png";
 import frontend from "./frontend.jpg";
 import backend from "./backend.jpg";
 import fullstack from "./fullstack.jpg";
+import bikeghor from "./bikeghor.png";
+import toothfixers from "./tootfixers.png";
+import techteaching from "./techteaching.png";
+import webapp from "./webapp.gif";
 
-export { logo, heroImg, frontend, backend, fullstack };
+export {
+  logo,
+  heroImg,
+  frontend,
+  backend,
+  fullstack,
+  bikeghor,
+  toothfixers,
+  techteaching,
+  webapp,
+};

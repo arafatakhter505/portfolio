@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="hero py-12 container mx-auto">
       <div className="hero-content flex-col md:flex-row-reverse">
         <div className="md:w-1/2">
-          <img src={heroImg} className="mx-auto lg:w-2/3" />
+          <img src={heroImg} className="mx-auto lg:w-2/3" alt="" />
         </div>
         <div className="md:w-1/2">
           <h1 className="text-5xl font-semibold">
