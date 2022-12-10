@@ -7,6 +7,7 @@ import bikeghor from "./bikeghor.png";
 import toothfixers from "./tootfixers.png";
 import techteaching from "./techteaching.png";
 import webapp from "./webapp.gif";
+import contact from "./contact.svg";
 
 export {
   logo,
@@ -18,4 +19,5 @@ export {
   toothfixers,
   techteaching,
   webapp,
+  contact,
 };

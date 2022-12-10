@@ -3,7 +3,7 @@ import SkillSlider from "./SkillSlider";
 
 const Skill = () => {
   return (
-    <div className="container mx-auto my-20 px-6">
+    <div id="skill" className="container mx-auto my-20 px-6">
       <h2 className="md:text-4xl text-3xl font-semibold">
         My Professional <span className="text-primary">Skill</span>
       </h2>

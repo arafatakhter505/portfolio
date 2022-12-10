@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 
 const Portfolio = () => {
   return (
-    <div className="container mx-auto my-20 px-6">
+    <div id="portfolio" className="container mx-auto my-20 px-6">
       <h2 className="md:text-4xl text-3xl font-semibold">
         My Recent <span className="text-primary">Projects</span>
       </h2>

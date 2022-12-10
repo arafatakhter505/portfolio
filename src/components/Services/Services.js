@@ -4,7 +4,7 @@ import ServiceCard from "./ServiceCard";
 
 const Services = () => {
   return (
-    <div className="container mx-auto my-20 px-6">
+    <div id="services" className="container mx-auto my-20 px-6">
       <h2 className="md:text-4xl text-3xl font-semibold">
         My Awesome <span className="text-primary">Services</span>
       </h2>
