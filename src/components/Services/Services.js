@@ -5,7 +5,7 @@ import ServiceCard from "./ServiceCard";
 const Services = () => {
   return (
     <div className="container mx-auto my-20 px-6">
-      <h2 className="text-4xl font-semibold">
+      <h2 className="md:text-4xl text-3xl font-semibold">
         My Awesome <span className="text-primary">Services</span>
       </h2>
       <div className="mt-12 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12">
@@ -17,7 +17,7 @@ const Services = () => {
         <ServiceCard
           title={"Backend Development"}
           img={backend}
-          text={"JavaScript, Node JS, Express JS, MongoDB"}
+          text={"JavaScript, Node JS, Express JS, MongoDB, Rest API, JWT"}
         />
         <ServiceCard
           title={"Full Stack Development"}

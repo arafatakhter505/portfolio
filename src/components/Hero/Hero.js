@@ -3,10 +3,10 @@ import { heroImg } from "../../assets";
 
 const Hero = () => {
   return (
-    <div className="hero min-h-screen container mx-auto">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+    <div className="hero py-12 container mx-auto">
+      <div className="hero-content flex-col md:flex-row-reverse">
         <div className="md:w-1/2">
-          <img src={heroImg} className="max-w-sm mx-auto" />
+          <img src={heroImg} className="mx-auto lg:w-2/3" />
         </div>
         <div className="md:w-1/2">
           <h1 className="text-5xl font-semibold">
