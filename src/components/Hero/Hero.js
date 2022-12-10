@@ -14,8 +14,8 @@ const Hero = () => {
             <span className="text-primary font-bold">Arafat Akhter</span>
           </h1>
           <p className="py-6">
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            Web Application Developer with high level of experience in web
+            designing and development, producting the Quality work
           </p>
           <a
             href="https://drive.google.com/file/d/1Tn3yMrwes8bbUrWTIpX-gkeIvj6UdeJC/view?usp=share_link"
